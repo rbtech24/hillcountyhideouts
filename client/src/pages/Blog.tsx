@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import { Link } from "wouter";
 import { ArrowRight } from "lucide-react";
 import { blogPosts } from "@/lib/constants";
 
@@ -59,9 +60,9 @@ const Blog = () => {
                       </span>
                     ))}
                   </div>
-                  <a href={`/blog/${post.slug}`} className="text-accent hover:text-primary font-accent font-medium transition-colors">
+                  <Link href={`/blog/${post.slug}`} className="text-accent hover:text-primary font-accent font-medium transition-colors">
                     Read More <ArrowRight className="inline ml-1 h-4 w-4" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}
@@ -109,9 +110,9 @@ const Blog = () => {
                         </span>
                       ))}
                     </div>
-                    <a href={`/blog/${modifiedPost.slug}`} className="text-accent hover:text-primary font-accent font-medium transition-colors">
+                    <Link href={`/blog/${modifiedPost.slug}`} className="text-accent hover:text-primary font-accent font-medium transition-colors">
                       Read More <ArrowRight className="inline ml-1 h-4 w-4" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               );
