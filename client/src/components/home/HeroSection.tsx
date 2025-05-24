@@ -1,54 +1,6 @@
-import { useState } from "react";
-import { useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { cn } from "@/lib/utils";
 
 const HeroSection = () => {
-  const [_, setLocation] = useLocation();
-  const [searchParams, setSearchParams] = useState({
-    arrival: "",
-    departure: "",
-  });
-  const [errors, setErrors] = useState({
-    arrival: false,
-    departure: false,
-  });
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    setSearchParams((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-    
-    // Clear error when user starts typing
-    if (errors[name as keyof typeof errors]) {
-      setErrors((prev) => ({
-        ...prev,
-        [name]: false,
-      }));
-    }
-  };
-
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    // Validate inputs
-    const newErrors = {
-      arrival: !searchParams.arrival,
-      departure: !searchParams.departure,
-    };
-    
-    setErrors(newErrors);
-    
-    // If no errors, redirect to booking site
-    if (!newErrors.arrival && !newErrors.departure) {
-      window.location.href = `https://www.hillcountrypremier.com/cabins-at-flite-acres/?arrival=${searchParams.arrival}&departure=${searchParams.departure}`;
-    }
-  };
-
   const scrollToBooking = () => {
     const cabinsSection = document.getElementById("cabins");
     if (cabinsSection) {
@@ -77,60 +29,6 @@ const HeroSection = () => {
           >
             Find Your Cabin
           </Button>
-        </div>
-      </div>
-      
-      {/* Search form */}
-      <div className="container mx-auto px-4 relative">
-        <div className="bg-white rounded-lg shadow-xl p-6 -mt-16 md:-mt-24 relative z-10 animate-fade-in">
-          <form onSubmit={handleSearch} className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6">
-            <div className="space-y-2">
-              <Label htmlFor="arrival" className="block text-sm font-medium text-darkText font-accent">
-                Arrival Date
-              </Label>
-              <Input
-                type="date"
-                id="arrival"
-                name="arrival"
-                value={searchParams.arrival}
-                onChange={handleInputChange}
-                className={cn(
-                  "w-full p-3 border rounded-lg focus:ring-2 focus:ring-accent focus:border-accent",
-                  errors.arrival ? "border-red-500" : "border-gray-300"
-                )}
-              />
-              {errors.arrival && (
-                <p className="text-red-500 text-xs mt-1">Please select an arrival date</p>
-              )}
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="departure" className="block text-sm font-medium text-darkText font-accent">
-                Departure Date
-              </Label>
-              <Input
-                type="date"
-                id="departure"
-                name="departure"
-                value={searchParams.departure}
-                onChange={handleInputChange}
-                className={cn(
-                  "w-full p-3 border rounded-lg focus:ring-2 focus:ring-accent focus:border-accent",
-                  errors.departure ? "border-red-500" : "border-gray-300"
-                )}
-              />
-              {errors.departure && (
-                <p className="text-red-500 text-xs mt-1">Please select a departure date</p>
-              )}
-            </div>
-            <div className="flex items-end">
-              <Button 
-                type="submit" 
-                className="w-full bg-primary hover:bg-secondary text-white font-accent font-semibold p-3 rounded-lg transition-colors"
-              >
-                Search Availability
-              </Button>
-            </div>
-          </form>
         </div>
       </div>
     </section>
