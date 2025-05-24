@@ -49,7 +49,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="flex items-center">
-          <span className="text-2xl font-bold text-primary font-heading">Hill Country Hideouts</span>
+          <img src="/images/logo.svg" alt="Hill Country Hideouts" className="h-12 mr-2" />
         </Link>
         
         {/* Mobile menu button */}
