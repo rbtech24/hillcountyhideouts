@@ -15,9 +15,5 @@
   <line x1="40" y1="38" x2="120" y2="38" stroke="#4A7C59" stroke-width="2" />
   <line x1="200" y1="38" x2="280" y2="38" stroke="#4A7C59" stroke-width="2" />
   
-  <!-- Small cabin icon -->
-  <g transform="translate(160, 14) scale(0.5)">
-    <polygon points="-15,-15 0,-25 15,-15" fill="#7C4E34" />
-    <rect x="-10" y="-15" width="20" height="15" fill="#A6754E" />
-  </g>
+  <!-- No cabin icon -->
 </svg>
