@@ -23,6 +23,6 @@
   </g>
   
   <!-- Text -->
-  <text x="100" y="20" font-family="'Playfair Display', serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#7C4E34">Hill Country</text>
-  <text x="100" y="35" font-family="'Playfair Display', serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#A6754E">Hideouts</text>
+  <text x="100" y="20" font-family="'Playfair Display', serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#7C4E34">Hill Country</text>
+  <text x="100" y="40" font-family="'Playfair Display', serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#A6754E">Hideouts</text>
 </svg>
