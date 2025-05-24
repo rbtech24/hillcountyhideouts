@@ -14,6 +14,13 @@ import Contact from "@/pages/Contact";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
+// Destination pages
+import Wimberley from "@/pages/destinations/Wimberley";
+import Fredericksburg from "@/pages/destinations/Fredericksburg";
+import DrippingSprings from "@/pages/destinations/DrippingSprings";
+import NewBraunfels from "@/pages/destinations/NewBraunfels";
+import CanyonLake from "@/pages/destinations/CanyonLake";
+
 function Router() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -27,6 +34,14 @@ function Router() {
           <Route path="/blog" component={Blog} />
           <Route path="/vacation-rentals" component={VacationRentals} />
           <Route path="/contact" component={Contact} />
+          
+          {/* Destination detail pages */}
+          <Route path="/destinations/wimberley" component={Wimberley} />
+          <Route path="/destinations/fredericksburg" component={Fredericksburg} />
+          <Route path="/destinations/drippingsprings" component={DrippingSprings} />
+          <Route path="/destinations/newbraunfels" component={NewBraunfels} />
+          <Route path="/destinations/canyonlake" component={CanyonLake} />
+          
           {/* Fallback to 404 */}
           <Route component={NotFound} />
         </Switch>

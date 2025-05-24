@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { ArrowRight } from "lucide-react";
 import { destinations } from "@/lib/constants";
+import { Link } from "wouter";
 
 const Destinations = () => {
   return (
@@ -63,16 +64,25 @@ const Destinations = () => {
                     ))}
                   </div>
                   
-                  {destination.websiteUrl && (
-                    <a 
-                      href={destination.websiteUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block text-accent hover:text-primary font-accent font-medium transition-colors"
+                  <div className="flex flex-wrap gap-4 items-center">
+                    <Link 
+                      href={`/destinations/${destination.id.toLowerCase()}`}
+                      className="inline-block bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-md font-medium transition-colors"
                     >
-                      Visit {destination.name} Website <ArrowRight className="inline ml-1 h-4 w-4" />
-                    </a>
-                  )}
+                      Explore {destination.name} <ArrowRight className="inline ml-1 h-4 w-4" />
+                    </Link>
+                    
+                    {destination.websiteUrl && (
+                      <a 
+                        href={destination.websiteUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block text-accent hover:text-primary font-accent font-medium transition-colors"
+                      >
+                        Visit Official Website <ArrowRight className="inline ml-1 h-4 w-4" />
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
