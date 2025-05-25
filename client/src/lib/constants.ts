@@ -27,7 +27,7 @@ export const cabins: Cabin[] = [
   {
     id: "desertwillow",
     name: "Desert Willow",
-    imageUrl: "https://images.unsplash.com/photo-1542718610-a1d656d1884c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
+    imageUrl: "/images/cabins/desert-willow-cabin.jpg",
     details: "1 bedroom | 1 bath | sleeps 2",
     rating: 5.0,
     reviewCount: 10,
