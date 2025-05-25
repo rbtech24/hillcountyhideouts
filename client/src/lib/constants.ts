@@ -38,7 +38,7 @@ export const cabins: Cabin[] = [
   {
     id: "coyote",
     name: "Coyote Cabin",
-    imageUrl: "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
+    imageUrl: "/images/cabins/coyote-cabin.jpg",
     details: "1 bedroom | 1 bath | sleeps 2",
     rating: 5.0,
     reviewCount: 13,
