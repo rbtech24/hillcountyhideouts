@@ -55,13 +55,7 @@ const FeaturedCabins = () => {
           ))}
         </div>
         
-        <div className="text-center mt-12">
-          <a href="https://www.hillcountrypremier.com/cabins-at-flite-acres/" target="_blank" rel="noopener noreferrer">
-            <Button className="bg-primary hover:bg-secondary text-white font-accent font-semibold py-3 px-8 rounded-lg transition-colors">
-              View All Cabins
-            </Button>
-          </a>
-        </div>
+
       </div>
     </section>
   );

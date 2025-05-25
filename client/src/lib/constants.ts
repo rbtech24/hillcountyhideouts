@@ -16,7 +16,7 @@ export const cabins: Cabin[] = [
   {
     id: "texassage",
     name: "Texas Sage",
-    imageUrl: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
+    imageUrl: "/images/cabins/texas-sage-cabin.jpg",
     details: "1 bedroom | 1 bath | sleeps 2",
     rating: 5.0,
     reviewCount: 6,
