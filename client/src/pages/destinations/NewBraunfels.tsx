@@ -78,11 +78,11 @@ const NewBraunfels = () => {
                 <div className="mt-auto">
                   <h4 className="font-bold text-primary mb-2">Popular Activities:</h4>
                   <ul className="list-disc list-inside space-y-1 text-darkText mb-4">
-                    <li>Tubing - The quintessential Texas summer experience</li>
-                    <li>Kayaking - For those who prefer a more active river experience</li>
-                    <li>Fishing - The river is known for trout and bass fishing</li>
-                    <li>Riverside camping - Several campgrounds offer sites along the river</li>
-                    <li>Picnicking - Numerous parks provide river access and picnic facilities</li>
+                    <li><span className="font-bold">Tubing</span> - The quintessential Texas summer experience. Float trips range from 1-5 hours depending on your chosen route and river conditions. The Horseshoe Loop on the Guadalupe is particularly popular, offering a convenient put-in and take-out at the same location. Bring waterproof sunscreen, secure footwear, and a hat for sun protection. Most outfitters provide tube rentals with built-in cooler tubes to keep refreshments cold during your journey.</li>
+                    <li><span className="font-bold">Kayaking</span> - For those who prefer a more active river experience. The Guadalupe offers beautiful scenery and occasional small rapids that make for an engaging paddle. Kayaks provide more control than tubes, allowing you to explore quiet coves and navigate the river at your own pace. Both sit-on-top and traditional kayaks are available from local outfitters, with guided tours available for beginners.</li>
+                    <li><span className="font-bold">Fishing</span> - The river is known for excellent trout and bass fishing year-round. The tailwater section below Canyon Dam is one of the southernmost trout fisheries in the United States, with rainbow trout stocked regularly during winter months. Fly fishing is particularly popular in this stretch, while bass fishing is productive throughout the river system. Local guides can provide access to the best fishing spots and techniques.</li>
+                    <li><span className="font-bold">Riverside camping</span> - Several campgrounds offer sites along the river, providing the unforgettable experience of falling asleep to the sound of flowing water. Options range from primitive sites to full-service RV parks with amenities. Many campgrounds offer direct river access, allowing you to fish, swim, or launch tubes right from your campsite. Reservations are essential during summer months.</li>
+                    <li><span className="font-bold">Picnicking</span> - Numerous parks provide river access and picnic facilities, making for perfect day outings. Cypress Bend Park, Hinman Island, and Prince Solms Park all offer shaded picnic areas near the water. Pack a lunch and spend the day swimming and relaxing by the river. Many parks include playgrounds and open spaces for games, creating ideal family destinations.</li>
                   </ul>
                 </div>
               </div>

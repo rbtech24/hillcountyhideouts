@@ -436,15 +436,20 @@ const CanyonLake = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-primary mb-3 font-heading">Lakeside Cabins and Homes</h3>
                   <p className="text-darkText mb-4">
-                    For the quintessential Canyon Lake experience, consider staying in one of the many cabins or vacation homes situated along the lake's 80 miles of shoreline. These properties range from cozy one-bedroom cabins to luxurious lakefront estates that can accommodate large groups or family reunions.
+                    For the quintessential Canyon Lake experience, consider staying in one of the many cabins or vacation homes situated along the lake's 80 miles of shoreline. These properties range from cozy one-bedroom cabins to luxurious lakefront estates that can accommodate large groups or family reunions. Popular areas include Canyon Lake Shores, Cranes Mill, and Startzville, each offering different views and access points to the lake.
                   </p>
                   <p className="text-darkText mb-4">
-                    Many lakeside properties feature private docks, boat slips, and direct water access, allowing guests to fully immerse themselves in lake activities. Decks and patios overlooking the water provide perfect settings for morning coffee or evening relaxation as the sun sets over the hills.
+                    Many lakeside properties feature private docks, boat slips, and direct water access, allowing guests to fully immerse themselves in lake activities. Look for homes with boat ramps if you're bringing your own watercraft, or opt for properties that include kayaks and paddleboards as amenities. Waterfront homes on the north shore offer spectacular sunset views, while properties on the eastern shore provide easy access to the dam and hiking trails.
+                  </p>
+                  <p className="text-darkText mb-4">
+                    High-end lakefront homes often include luxury features like infinity pools overlooking the water, outdoor kitchens for entertaining, and floor-to-ceiling windows that showcase panoramic lake views. For a more rustic experience, consider the classic cedar cabins tucked among the oak trees that offer screened porches and wood-burning fireplaces for cooler months.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="bg-neutral px-3 py-1 rounded-full text-xs font-medium text-darkText">Lake Views</span>
                     <span className="bg-neutral px-3 py-1 rounded-full text-xs font-medium text-darkText">Water Access</span>
                     <span className="bg-neutral px-3 py-1 rounded-full text-xs font-medium text-darkText">Privacy</span>
+                    <span className="bg-neutral px-3 py-1 rounded-full text-xs font-medium text-darkText">Boat Docks</span>
+                    <span className="bg-neutral px-3 py-1 rounded-full text-xs font-medium text-darkText">Outdoor Living</span>
                   </div>
                 </div>
               </div>
