@@ -60,7 +60,7 @@ export const cabins: Cabin[] = [
   {
     id: "mountainlaurel",
     name: "Mountain Laurel",
-    imageUrl: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
+    imageUrl: "/images/cabins/mountain-laurel-cabin.jpg",
     details: "2 bedrooms | 1 bath | sleeps 4",
     rating: 4.8,
     reviewCount: 4,
