@@ -5,7 +5,7 @@ export const cabins: Cabin[] = [
   {
     id: "mockingbird",
     name: "Mockingbird Cabin",
-    imageUrl: "https://images.unsplash.com/photo-1587061949409-02df41d5e562?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
+    imageUrl: "/images/cabins/mockingbird-cabin.jpg",
     details: "1 bedroom | 1 bath | sleeps 2",
     rating: 5.0,
     reviewCount: 12,
