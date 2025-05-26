@@ -1,11 +1,17 @@
 import { Cabin, Destination, Attraction, BlogPost, Testimonial } from "./types";
+import coyoteCabinImg from "@assets/Coyote Cabin6.jpg";
+import desertWillowImg from "@assets/Desert Willow.jpg";
+import mockingbirdCabinImg from "@assets/Mockingbird Cabin01.jpg";
+import morningDoveImg from "@assets/Morning Dove01.jpg";
+import mountainLaurelImg from "@assets/Mountain Laurel03.jpg";
+import texasSageImg from "@assets/Texas Sage03.jpg";
 
 // Cabin data
 export const cabins: Cabin[] = [
   {
     id: "1",
     name: "Coyote Cabin",
-    imageUrl: "@assets/Coyote Cabin6.jpg",
+    imageUrl: coyoteCabinImg,
     details: "Rustic charm meets modern comfort in this beautifully appointed Hill Country retreat",
     rating: 4.9,
     reviewCount: 124,
@@ -16,7 +22,7 @@ export const cabins: Cabin[] = [
   {
     id: "2", 
     name: "Desert Willow",
-    imageUrl: "@assets/Desert Willow.jpg",
+    imageUrl: desertWillowImg,
     details: "Secluded cabin with stunning views and luxurious amenities for the perfect getaway",
     rating: 4.8,
     reviewCount: 97,
@@ -27,7 +33,7 @@ export const cabins: Cabin[] = [
   {
     id: "3",
     name: "Mockingbird Cabin", 
-    imageUrl: "@assets/Mockingbird Cabin01.jpg",
+    imageUrl: mockingbirdCabinImg,
     details: "Family-friendly cabin with spacious living areas and outdoor entertainment space",
     rating: 4.7,
     reviewCount: 156,
@@ -38,7 +44,7 @@ export const cabins: Cabin[] = [
   {
     id: "4",
     name: "Morning Dove Cabin",
-    imageUrl: "@assets/Morning Dove01.jpg", 
+    imageUrl: morningDoveImg, 
     details: "Peaceful retreat with scenic Hill Country views and modern amenities",
     rating: 4.8,
     reviewCount: 89,
@@ -49,7 +55,7 @@ export const cabins: Cabin[] = [
   {
     id: "5",
     name: "Mountain Laurel Cabin",
-    imageUrl: "@assets/Mountain Laurel03.jpg",
+    imageUrl: mountainLaurelImg,
     details: "Elegant cabin nestled among native trees with luxury touches throughout",
     rating: 4.9,
     reviewCount: 112,
@@ -60,7 +66,7 @@ export const cabins: Cabin[] = [
   {
     id: "6",
     name: "Texas Sage Cabin",
-    imageUrl: "@assets/Texas Sage03.jpg",
+    imageUrl: texasSageImg,
     details: "Charming cabin with authentic Texas character and all the comforts of home",
     rating: 4.7,
     reviewCount: 95,
