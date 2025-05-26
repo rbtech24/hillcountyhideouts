@@ -17,27 +17,20 @@ const DestinationGuides = () => {
           {destinations.map((destination) => (
             <div 
               key={destination.id}
-              className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-[1.02] duration-300"
+              className="bg-white rounded-lg shadow-lg transition-transform hover:scale-[1.02] duration-300 p-6"
             >
-              <img 
-                src={destination.imageUrl} 
-                alt={destination.name} 
-                className="w-full h-60 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-2xl font-bold text-primary mb-3 font-heading">{destination.name}</h3>
-                <p className="text-darkText mb-4">{destination.description}</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {destination.highlights.map((highlight, index) => (
-                    <span key={index} className="bg-neutral px-3 py-1 rounded-full text-xs font-medium text-darkText">
-                      {highlight}
-                    </span>
-                  ))}
-                </div>
-                <Link href="/destinations" className="inline-block mt-2 text-primary hover:text-accent font-accent font-medium transition-colors">
-                  Explore {destination.name} <ArrowRight className="inline ml-1 h-4 w-4" />
-                </Link>
+              <h3 className="text-2xl font-bold text-primary mb-3 font-heading">{destination.name}</h3>
+              <p className="text-darkText mb-4">{destination.description}</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {destination.highlights.map((highlight, index) => (
+                  <span key={index} className="bg-neutral px-3 py-1 rounded-full text-xs font-medium text-darkText">
+                    {highlight}
+                  </span>
+                ))}
               </div>
+              <Link href="/destinations" className="inline-block mt-2 text-primary hover:text-accent font-accent font-medium transition-colors">
+                Explore {destination.name} <ArrowRight className="inline ml-1 h-4 w-4" />
+              </Link>
             </div>
           ))}
         </div>
