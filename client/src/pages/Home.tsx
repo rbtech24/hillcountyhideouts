@@ -6,6 +6,7 @@ import DestinationGuides from "@/components/home/DestinationGuides";
 import AttractionsSection from "@/components/home/AttractionsSection";
 import BlogSection from "@/components/home/BlogSection";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
+import EventsSection from "@/components/home/EventsSection";
 import CTASection from "@/components/home/CTASection";
 
 const Home = () => {
@@ -34,6 +35,7 @@ const Home = () => {
       <AboutSection />
       <DestinationGuides />
       <AttractionsSection />
+      <EventsSection />
       <BlogSection />
       <TestimonialsSection />
       <CTASection />

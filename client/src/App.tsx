@@ -12,6 +12,7 @@ import Destinations from "@/pages/Destinations";
 import Blog from "@/pages/Blog";
 import BlogPost from "@/pages/BlogPost";
 import Contact from "@/pages/Contact";
+import Events from "@/pages/Events";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
@@ -37,6 +38,7 @@ function Router() {
           <Route path="/blog" component={Blog} />
           <Route path="/blog/:slug" component={BlogPost} />
           <Route path="/contact" component={Contact} />
+          <Route path="/events" component={Events} />
           
           {/* Destination detail pages */}
           <Route path="/destinations/wimberley" component={Wimberley} />
