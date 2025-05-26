@@ -44,11 +44,11 @@ const AboutSection = () => {
                 <p className="font-accent font-medium">Local Cuisine</p>
               </div>
             </div>
-            <Link href="/vacation-rentals">
+            <a href="https://wimberleycabins.com/" target="_blank" rel="noopener noreferrer">
               <Button className="bg-accent hover:bg-primary text-white font-accent font-semibold py-3 px-6 rounded-lg transition-colors">
                 View Our Cabins
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

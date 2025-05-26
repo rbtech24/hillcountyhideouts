@@ -1,13 +1,6 @@
 import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
-  const scrollToBooking = () => {
-    const cabinsSection = document.getElementById("cabins");
-    if (cabinsSection) {
-      cabinsSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <section className="relative py-20">
       <div 
@@ -20,12 +13,13 @@ const CTASection = () => {
         <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
           Book your perfect cabin getaway today and experience the beauty, charm, and relaxation of the Texas Hill Country
         </p>
-        <Button 
-          onClick={scrollToBooking}
-          className="bg-accent hover:bg-white hover:text-primary text-white font-accent font-semibold py-3 px-8 rounded-lg transition-colors text-lg"
-        >
-          Find Your Perfect Cabin
-        </Button>
+        <a href="https://wimberleycabins.com/" target="_blank" rel="noopener noreferrer">
+          <Button 
+            className="bg-accent hover:bg-white hover:text-primary text-white font-accent font-semibold py-3 px-8 rounded-lg transition-colors text-lg"
+          >
+            Find Your Perfect Cabin
+          </Button>
+        </a>
       </div>
     </section>
   );

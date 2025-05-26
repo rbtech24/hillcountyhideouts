@@ -2,13 +2,6 @@ import { Button } from "@/components/ui/button";
 import hillCountrySceneImg from "@assets/shutterstock_754782883.jpg";
 
 const HeroSection = () => {
-  const scrollToBooking = () => {
-    const cabinsSection = document.getElementById("cabins");
-    if (cabinsSection) {
-      cabinsSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <section className="relative pt-24">
       {/* Hero background image */}

@@ -81,11 +81,11 @@ const Header = () => {
               {item.name}
             </Link>
           ))}
-          <Link href="/vacation-rentals" onClick={scrollToTop}>
+          <a href="https://wimberleycabins.com/" target="_blank" rel="noopener noreferrer">
             <Button className="font-accent bg-accent text-white hover:bg-primary transition-colors">
               Book Now
             </Button>
-          </Link>
+          </a>
         </nav>
       </div>
       
@@ -105,11 +105,11 @@ const Header = () => {
               {item.name}
             </Link>
           ))}
-          <Link href="/vacation-rentals" onClick={closeMobileMenu}>
+          <a href="https://wimberleycabins.com/" target="_blank" rel="noopener noreferrer">
             <Button className="w-full font-accent bg-accent text-white hover:bg-primary transition-colors">
               Book Now
             </Button>
-          </Link>
+          </a>
         </nav>
       </div>
     </header>
