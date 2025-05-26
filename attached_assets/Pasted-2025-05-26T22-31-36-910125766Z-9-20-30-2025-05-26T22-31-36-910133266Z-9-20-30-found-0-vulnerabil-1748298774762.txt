@@ -1,0 +1,50 @@
+2025-05-26T22:31:36.910125766Z #9 20.30 
+2025-05-26T22:31:36.910133266Z #9 20.30 found 0 vulnerabilities
+2025-05-26T22:31:36.910139806Z #9 20.30 npm notice
+2025-05-26T22:31:36.910146406Z #9 20.30 npm notice New major version of npm available! 10.8.2 -> 11.4.1
+2025-05-26T22:31:36.910152676Z #9 20.30 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.1
+2025-05-26T22:31:36.910192727Z #9 20.30 npm notice To update run: npm install -g npm@11.4.1
+2025-05-26T22:31:36.910197267Z #9 20.30 npm notice
+2025-05-26T22:31:37.963648761Z #9 DONE 21.4s
+2025-05-26T22:31:37.963717631Z 
+2025-05-26T22:31:37.963726331Z #10 [5/6] COPY . .
+2025-05-26T22:31:38.715316471Z #10 DONE 0.8s
+2025-05-26T22:31:38.715390512Z 
+2025-05-26T22:31:38.715400642Z #11 [6/6] RUN npx vite build &&     npx esbuild server/production.ts --platform=node --packages=external --bundle --format=esm --outfile=dist/server.js &&     cp -r attached_assets dist/
+2025-05-26T22:31:41.574727121Z #11 2.808 npm warn exec The following package was not found and will be installed: vite@6.3.5
+2025-05-26T22:31:48.778478425Z #11 10.13 failed to load config from /app/vite.config.ts
+2025-05-26T22:31:48.929445023Z #11 10.13 error during build:
+2025-05-26T22:31:48.929498934Z #11 10.13 Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'vite' imported from /app/node_modules/.vite-temp/vite.config.ts.timestamp-1748298708764-e3c3a437500f8.mjs
+2025-05-26T22:31:48.929508024Z #11 10.13     at new NodeError (node:internal/errors:405:5)
+2025-05-26T22:31:48.929515684Z #11 10.13     at packageResolve (node:internal/modules/esm/resolve:916:9)
+2025-05-26T22:31:48.929521794Z #11 10.13     at moduleResolve (node:internal/modules/esm/resolve:973:20)
+2025-05-26T22:31:48.929528394Z #11 10.13     at defaultResolve (node:internal/modules/esm/resolve:1206:11)
+2025-05-26T22:31:48.929536084Z #11 10.13     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:404:12)
+2025-05-26T22:31:48.929542364Z #11 10.13     at ModuleLoader.resolve (node:internal/modules/esm/loader:373:25)
+2025-05-26T22:31:48.929549324Z #11 10.13     at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:250:38)
+2025-05-26T22:31:48.929555874Z #11 10.13     at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:76:39)
+2025-05-26T22:31:48.929562024Z #11 10.13     at link (node:internal/modules/esm/module_job:75:36)
+2025-05-26T22:31:48.997125742Z #11 ERROR: process "/bin/sh -c npx vite build &&     npx esbuild server/production.ts --platform=node --packages=external --bundle --format=esm --outfile=dist/server.js &&     cp -r attached_assets dist/" did not complete successfully: exit code: 1
+2025-05-26T22:31:48.997185013Z ------
+2025-05-26T22:31:48.997194173Z  > [6/6] RUN npx vite build &&     npx esbuild server/production.ts --platform=node --packages=external --bundle --format=esm --outfile=dist/server.js &&     cp -r attached_assets dist/:
+2025-05-26T22:31:48.997201273Z 10.13 Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'vite' imported from /app/node_modules/.vite-temp/vite.config.ts.timestamp-1748298708764-e3c3a437500f8.mjs
+2025-05-26T22:31:48.997208133Z 10.13     at new NodeError (node:internal/errors:405:5)
+2025-05-26T22:31:48.997214943Z 10.13     at packageResolve (node:internal/modules/esm/resolve:916:9)
+2025-05-26T22:31:48.997221073Z 10.13     at moduleResolve (node:internal/modules/esm/resolve:973:20)
+2025-05-26T22:31:48.997226803Z 10.13     at defaultResolve (node:internal/modules/esm/resolve:1206:11)
+2025-05-26T22:31:48.997233093Z 10.13     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:404:12)
+2025-05-26T22:31:48.997239143Z 10.13     at ModuleLoader.resolve (node:internal/modules/esm/loader:373:25)
+2025-05-26T22:31:48.997245243Z 10.13     at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:250:38)
+2025-05-26T22:31:48.997313454Z 10.13     at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:76:39)
+2025-05-26T22:31:48.997320114Z 10.13     at link (node:internal/modules/esm/module_job:75:36)
+2025-05-26T22:31:48.997325714Z ------
+2025-05-26T22:31:49.000953766Z Dockerfile:15
+2025-05-26T22:31:49.001035237Z --------------------
+2025-05-26T22:31:49.001043417Z   14 |     # Build the application
+2025-05-26T22:31:49.001047227Z   15 | >>> RUN npx vite build && \
+2025-05-26T22:31:49.001050887Z   16 | >>>     npx esbuild server/production.ts --platform=node --packages=external --bundle --format=esm --outfile=dist/server.js && \
+2025-05-26T22:31:49.001054157Z   17 | >>>     cp -r attached_assets dist/
+2025-05-26T22:31:49.001057217Z   18 |     
+2025-05-26T22:31:49.001060927Z --------------------
+2025-05-26T22:31:49.001066197Z error: failed to solve: process "/bin/sh -c npx vite build &&     npx esbuild server/production.ts --platform=node --packages=external --bundle --format=esm --outfile=dist/server.js &&     cp -r attached_assets dist/" did not complete successfully: exit code: 1
+2025-05-26T22:31:49.040654904Z error: exit status 1
