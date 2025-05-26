@@ -16,12 +16,12 @@ async function createServer() {
   });
 
   // Serve static files from the built frontend
-  const staticPath = join(__dirname, "../dist");
+  const staticPath = join(__dirname, "../public");
   console.log('Static path:', staticPath);
   app.use(express.static(staticPath));
 
   // Serve attached assets
-  const assetsPath = join(__dirname, "attached_assets");
+  const assetsPath = join(__dirname, "../attached_assets");
   console.log('Assets path:', assetsPath);
   app.use("/assets", express.static(assetsPath));
 
