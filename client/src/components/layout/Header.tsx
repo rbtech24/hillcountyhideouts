@@ -84,7 +84,7 @@ const Header = () => {
           ))}
           <a href="https://wimberleycabins.com/" target="_blank" rel="noopener noreferrer">
             <Button className="font-accent bg-accent text-white hover:bg-primary transition-colors">
-              Book Now
+              Book Cabins
             </Button>
           </a>
         </nav>
