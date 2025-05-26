@@ -17,12 +17,13 @@ const HeroSection = () => {
           <p className="text-xl text-white mb-8 max-w-2xl">
             Luxurious cabins nestled in the heart of Texas Hill Country, surrounded by nature's beauty
           </p>
-          <Button 
-            onClick={scrollToBooking}
-            className="bg-accent hover:bg-primary text-white font-accent font-semibold py-3 px-8 rounded-lg transition-colors text-lg"
-          >
-            Find Your Cabin
-          </Button>
+          <a href="https://wimberleycabins.com/" target="_blank" rel="noopener noreferrer">
+            <Button 
+              className="bg-accent hover:bg-primary text-white font-accent font-semibold py-3 px-8 rounded-lg transition-colors text-lg"
+            >
+              Find Your Cabin
+            </Button>
+          </a>
         </div>
       </div>
     </section>
