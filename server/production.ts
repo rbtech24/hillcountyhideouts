@@ -16,16 +16,20 @@ async function createServer() {
   });
 
   // Serve static files from the built frontend
-  const staticPath = join(__dirname, "../dist/public");
+  const staticPath = join(__dirname, "../dist");
+  console.log('Static path:', staticPath);
   app.use(express.static(staticPath));
 
   // Serve attached assets
-  const assetsPath = join(__dirname, "../dist/attached_assets");
+  const assetsPath = join(__dirname, "attached_assets");
+  console.log('Assets path:', assetsPath);
   app.use("/assets", express.static(assetsPath));
 
   // Catch-all handler for SPA routing
   app.get("*", (req, res) => {
-    res.sendFile(join(staticPath, "index.html"));
+    const indexPath = join(staticPath, "index.html");
+    console.log('Serving index.html from:', indexPath);
+    res.sendFile(indexPath);
   });
 
   return server;
