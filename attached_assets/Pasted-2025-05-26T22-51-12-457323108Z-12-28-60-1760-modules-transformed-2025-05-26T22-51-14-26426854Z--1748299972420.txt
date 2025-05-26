@@ -1,0 +1,50 @@
+2025-05-26T22:51:12.457323108Z #12 28.60 ✓ 1760 modules transformed.
+2025-05-26T22:51:14.26426854Z #12 30.41 rendering chunks...
+2025-05-26T22:51:14.555021022Z #12 30.60 computing gzip size...
+2025-05-26T22:51:14.555120304Z #12 30.70 ../dist/public/index.html                                       1.80 kB │ gzip:   0.76 kB
+2025-05-26T22:51:14.70788298Z #12 30.70 ../dist/public/assets/Morning Dove01-DEM05SAV.jpg             325.34 kB
+2025-05-26T22:51:14.707962281Z #12 30.70 ../dist/public/assets/Mountain Laurel03-D1nJpyCR.jpg          337.82 kB
+2025-05-26T22:51:14.707969721Z #12 30.70 ../dist/public/assets/Coyote Cabin6-Ad-Az_CX.jpg              353.66 kB
+2025-05-26T22:51:14.707976161Z #12 30.70 ../dist/public/assets/Desert Willow-C9Nm2m1v.jpg              364.80 kB
+2025-05-26T22:51:14.707982611Z #12 30.70 ../dist/public/assets/Mockingbird Cabin01-Dhpcewgg.jpg        370.81 kB
+2025-05-26T22:51:14.707989012Z #12 30.70 ../dist/public/assets/Texas Sage03-6xsYek5_.jpg               372.50 kB
+2025-05-26T22:51:14.707995022Z #12 30.70 ../dist/public/assets/hillcountrypic (3)-EIR_zIrD.png       3,488.19 kB
+2025-05-26T22:51:14.708000922Z #12 30.70 ../dist/public/assets/hillcountrypic (2)-DFzPXIZS.png       3,491.62 kB
+2025-05-26T22:51:14.708006682Z #12 30.70 ../dist/public/assets/New Braunfels-BYEyxgZW.png            3,494.27 kB
+2025-05-26T22:51:14.708012802Z #12 30.70 ../dist/public/assets/hillcountry cabins-gRMfUI5u.jpg       4,791.80 kB
+2025-05-26T22:51:14.708018652Z #12 30.70 ../dist/public/assets/shutterstock_754782883-DrvPWJIY.jpg  19,266.04 kB
+2025-05-26T22:51:14.708026172Z #12 30.70 ../dist/public/assets/index-DOPlxASM.css                       82.33 kB │ gzip:  13.46 kB
+2025-05-26T22:51:14.708305556Z #12 30.70 ../dist/public/assets/index-Du2tDlqN.js                       752.87 kB │ gzip: 207.92 kB
+2025-05-26T22:51:14.708318886Z #12 30.70 ✓ built in 27.45s
+2025-05-26T22:51:14.708325206Z #12 30.70 
+2025-05-26T22:51:14.708332096Z #12 30.70 (!) Some chunks are larger than 500 kB after minification. Consider:
+2025-05-26T22:51:14.708413117Z #12 30.70 - Using dynamic import() to code-split the application
+2025-05-26T22:51:14.708423007Z #12 30.70 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+2025-05-26T22:51:14.708504139Z #12 30.70 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+2025-05-26T22:51:16.823702733Z #12 32.90 
+2025-05-26T22:51:16.823783294Z #12 32.90   dist/server.js  6.1kb
+2025-05-26T22:51:16.823788394Z #12 32.90 
+2025-05-26T22:51:16.823794704Z #12 32.90 ⚡ Done in 11ms
+2025-05-26T22:51:17.083805149Z #12 DONE 33.2s
+2025-05-26T22:51:17.235866216Z 
+2025-05-26T22:51:17.238126717Z #13 exporting to docker image format
+2025-05-26T22:51:17.238183917Z #13 exporting layers
+2025-05-26T22:51:30.026925417Z #13 exporting layers 12.9s done
+2025-05-26T22:51:30.179696235Z #13 exporting manifest sha256:90fc1cb04b96465a50078751ec5fc525b905e9210202329d1666ac92abcea6a7 done
+2025-05-26T22:51:30.179819087Z #13 exporting config sha256:ea8d0daa2ab7611571e0801a5429ea2bd9f917de71964798a363db3f0a2b083b done
+2025-05-26T22:51:47.071906786Z #13 DONE 29.8s
+2025-05-26T22:51:47.072007297Z 
+2025-05-26T22:51:47.072017027Z #14 exporting cache to client directory
+2025-05-26T22:51:47.072024557Z #14 preparing build cache for export
+2025-05-26T22:51:54.914138146Z #14 writing cache manifest sha256:74c492c842293de0146d5900b4f8726686914e35ffdf387946e97022ca8bb396
+2025-05-26T22:51:55.006507294Z #14 writing cache manifest sha256:74c492c842293de0146d5900b4f8726686914e35ffdf387946e97022ca8bb396 0.0s done
+2025-05-26T22:51:55.006901449Z #14 DONE 8.0s
+2025-05-26T22:51:57.112927729Z Pushing image to registry...
+2025-05-26T22:52:07.79499308Z Upload succeeded
+2025-05-26T22:52:10.01608399Z ==> Deploying...
+2025-05-26T22:52:25.378756965Z Static path: /app/public
+2025-05-26T22:52:25.379270099Z Assets path: /app/attached_assets
+2025-05-26T22:52:25.445462054Z Production server running on port 10000
+2025-05-26T22:52:26.890208154Z Serving index.html from: /app/public/index.html
+2025-05-26T22:52:26.907740358Z Error: ENOENT: no such file or directory, stat '/app/public/index.html'
+2025-05-26T22:52:30.971763544Z ==> Your service is live 🎉

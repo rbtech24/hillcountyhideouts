@@ -16,7 +16,7 @@ async function createServer() {
   });
 
   // Serve static files from the built frontend
-  const staticPath = join(__dirname, "../public");
+  const staticPath = join(__dirname, "../dist/public");
   console.log('Static path:', staticPath);
   app.use(express.static(staticPath));
 
