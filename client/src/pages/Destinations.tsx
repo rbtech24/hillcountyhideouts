@@ -67,7 +67,7 @@ const Destinations = () => {
                   
                   <div className="flex flex-wrap gap-4 items-center">
                     <Link 
-                      href={`/destinations/${destination.id.toLowerCase()}`}
+                      href={`/destinations/${destination.name.toLowerCase().replace(' ', '')}`}
                       onClick={scrollToTop}
                       className="inline-block bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-md font-medium transition-colors"
                     >
