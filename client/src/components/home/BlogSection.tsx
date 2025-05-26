@@ -18,25 +18,18 @@ const BlogSection = () => {
           {blogPosts.map((post) => (
             <div 
               key={post.id}
-              className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-[1.02] duration-300"
+              className="bg-white rounded-lg shadow-lg transition-transform hover:scale-[1.02] duration-300 p-6"
             >
-              <img 
-                src={post.imageUrl} 
-                alt={post.title} 
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <div className="flex items-center mb-2">
-                  <span className="text-xs text-gray-500 font-accent">{post.date}</span>
-                  <span className="mx-2 text-gray-300">•</span>
-                  <span className="text-xs text-gray-500 font-accent">{post.category}</span>
-                </div>
-                <h3 className="text-xl font-bold text-primary mb-3 font-heading">{post.title}</h3>
-                <p className="text-darkText mb-4">{post.excerpt}</p>
-                <Link href={`/blog/${post.slug}`} className="text-accent hover:text-primary font-accent font-medium transition-colors">
-                  Read More <ArrowRight className="inline ml-1 h-4 w-4" />
-                </Link>
+              <div className="flex items-center mb-2">
+                <span className="text-xs text-gray-500 font-accent">{post.date}</span>
+                <span className="mx-2 text-gray-300">•</span>
+                <span className="text-xs text-gray-500 font-accent">{post.category}</span>
               </div>
+              <h3 className="text-xl font-bold text-primary mb-3 font-heading">{post.title}</h3>
+              <p className="text-darkText mb-4">{post.excerpt}</p>
+              <Link href={`/blog/${post.slug}`} className="text-accent hover:text-primary font-accent font-medium transition-colors">
+                Read More <ArrowRight className="inline ml-1 h-4 w-4" />
+              </Link>
             </div>
           ))}
         </div>
