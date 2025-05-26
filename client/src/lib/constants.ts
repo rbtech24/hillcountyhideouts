@@ -189,33 +189,42 @@ export const moreAttractions: Attraction[] = [
   }
 ];
 
-// Blog post data
+// Blog post data with current dates and SEO-rich Hill Country content
 export const blogPosts: BlogPost[] = [
   {
     id: "1",
-    title: "The Ultimate Guide to Texas Hill Country Cabins: Finding Your Perfect Getaway",
-    slug: "ultimate-guide-texas-hill-country-cabins",
+    title: "Hill Country Wildflower Season 2025: Best Viewing Spots and Peak Bloom Times",
+    slug: "hill-country-wildflower-season-2025-guide",
     imageUrl: "/images/texas-longhorns.jpg",
-    date: "May 20, 2023",
-    category: "Lodging",
-    excerpt: "Discover the best cabin rentals across Texas Hill Country with our comprehensive guide to finding the perfect accommodation for any occasion.",
-    tags: ["cabins", "lodging", "hill country rentals", "vacation homes"],
-    content: `
-# The Ultimate Guide to Texas Hill Country Cabins: Finding Your Perfect Getaway
-
-Texas Hill Country is renowned for its stunning landscapes, from rolling hills and crystal-clear rivers to charming small towns and vibrant wildflower displays. For travelers seeking an authentic experience of this beloved region, nothing compares to staying in a Hill Country cabin rental. Whether you're planning a romantic weekend, family vacation, or friends' retreat, this comprehensive guide will help you find the perfect Hill Country hideaway.
-
-## Why Choose a Cabin in Texas Hill Country?
-
-Cabin rentals offer several advantages over traditional hotels:
-
-- **Privacy and Space**: Enjoy your own private property without sharing walls with other guests
-- **Authentic Experience**: Immerse yourself in the natural beauty of Hill Country
-- **Home-Like Amenities**: Full kitchens, multiple bedrooms, and outdoor living spaces
-- **Value**: Often more affordable per person than hotel rooms, especially for groups
-- **Unique Character**: Each cabin has its own personality and charm
-
-Many cabins in the region also feature special amenities like hot tubs, fire pits, outdoor kitchens, and stunning views that hotels simply can't match.
+    date: "January 15, 2025",
+    category: "Nature & Outdoors",
+    excerpt: "Your complete guide to experiencing the spectacular 2025 Texas Hill Country wildflower season, including bluebonnet hotspots, peak bloom dates, and photography tips.",
+    tags: ["wildflowers", "bluebonnets", "spring 2025", "photography", "nature"],
+    content: "The Texas Hill Country wildflower season is arguably one of the most spectacular natural displays in North America. Every spring, from late March through early May, millions of wildflowers transform the rolling hills into a vibrant tapestry of color that draws visitors from around the world. As we look ahead to the 2025 season, here's everything you need to know to experience this natural phenomenon at its peak. The Hill Country wildflower season doesn't happen all at once. Different species bloom at different times, creating a succession of color that can last for nearly two months. Early Season begins with bluebonnets in mid-March, Peak Season occurs in early to mid-April when bluebonnets reach full bloom alongside Indian paintbrush, and Late Season extends into early May with gallardia and black-eyed Susans. Best viewing locations include Highway 290 between Austin and Fredericksburg, the famous Willow City Loop near Fredericksburg, Llano County highways, and Burnet County roads around Inks Lake State Park. For photography, visit during golden hour and get low to capture flowers at eye level. Plan accommodations early as Hill Country cabins book quickly during wildflower season."
+  },
+  {
+    id: "2", 
+    title: "Ultimate Guide to Hill Country Wineries: 2025 Wine Trail Adventures",
+    slug: "hill-country-wineries-wine-trail-guide-2025",
+    imageUrl: "/images/texas-longhorns.jpg",
+    date: "January 10, 2025",
+    category: "Wine & Dining",
+    excerpt: "Discover the best wineries along the Texas Hill Country Wine Trail, featuring new releases, harvest season updates, and insider tips for wine enthusiasts.",
+    tags: ["wineries", "wine trail", "Texas wine", "tastings", "2025"],
+    content: "The Texas Hill Country Wine Trail has grown into one of America's premier wine destinations, with over 50 wineries spread across the rolling hills between Austin and San Antonio. The region's unique terroir features limestone-rich soils, dramatic temperature variations, and abundant sunshine that creates ideal conditions for wine grape cultivation. Must-visit wineries include Becker Vineyards in Fredericksburg for their award-winning Viognier and Tempranillo, Luckenbach Texas Wines for their bold red blends and live music, and Driftwood Estate Winery for sophisticated Super Tuscan-style wines. Tempranillo has emerged as Texas's signature grape, thriving in the Hill Country climate, while other successful varietals include Viognier for whites and Mourvèdre for reds. Spring offers wildflower backdrops for tastings, fall provides harvest experiences, and winter features cozy fireside tastings. Always arrange designated transportation and make reservations, especially on weekends. The Hill Country wine trail offers an authentic taste of place where passionate winemakers craft distinctive wines reflecting the unique character of this beautiful region."
+  },
+  {
+    id: "3",
+    title: "Winter Adventures in Texas Hill Country: Your 2025 Cold Weather Guide", 
+    slug: "winter-adventures-texas-hill-country-2025",
+    imageUrl: "/images/texas-longhorns.jpg",
+    date: "December 28, 2024",
+    category: "Seasonal Travel",
+    excerpt: "Discover why winter is one of the best times to visit the Hill Country, with fewer crowds, cozy cabin stays, and unique seasonal activities.",
+    tags: ["winter travel", "seasonal activities", "cozy cabins", "holiday events"],
+    content: "Winter offers some of the most magical Hill Country experiences, from cozy cabin stays with crackling fireplaces to crisp hiking days with crystal-clear views. Winter is the Hill Country's off-season, meaning significantly fewer crowds, easier restaurant reservations, and better accommodation rates. Daytime temperatures typically range from 45-65°F, perfect for hiking without overheating. Winter provides ideal conditions for climbing Enchanted Rock, as cooler temperatures make the challenging ascent comfortable. Hamilton Pool's waterfall is often more dramatic in winter, and many wineries offer cozy indoor tastings with fireplaces. Fredericksburg's German heritage shines during holiday season with traditional Christmas markets, while Wimberley hosts charming winter festivals. Winter is excellent for wildlife watching as animals are more active during cooler daylight hours, and bare trees make bird spotting easier. Winter's clear, dry air provides exceptional stargazing conditions, while the lower sun angle creates dramatic photography lighting. Pack layers, waterproof gear, and comfortable hiking boots. Book cabins with fireplaces and hot tubs for the ultimate winter experience."
+  }
+];
 
 ## Popular Areas for Hill Country Cabin Rentals
 
