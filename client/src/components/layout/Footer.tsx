@@ -29,9 +29,9 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4 font-heading">Quick Links</h3>
             <ul className="space-y-2">
               <li><Link href="/" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Home</Link></li>
-              <li><Link href="/about" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">About Us</Link></li>
-              <li><Link href="/vacation-rentals" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Our Cabins</Link></li>
+              <li><a href="https://wimberleycabins.com/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-accent transition-colors">Our Cabins</a></li>
               <li><Link href="/attractions" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Attractions</Link></li>
+              <li><Link href="/destinations" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Destinations</Link></li>
               <li><Link href="/blog" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Blog</Link></li>
             </ul>
           </div>
@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <FontAwesomeIcon icon={faPhoneAlt} className="mt-1 mr-3" />
-                <span>(555) 123-4567</span>
+                <span>(512) 847-7460</span>
               </li>
               <li className="flex items-start">
                 <FontAwesomeIcon icon={faEnvelope} className="mt-1 mr-3" />
