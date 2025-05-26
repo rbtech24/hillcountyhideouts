@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import { ArrowRight } from "lucide-react";
 import { destinations } from "@/lib/constants";
 import { Link } from "wouter";
+import { scrollToTop } from "@/hooks/use-scroll-to-top";
 
 const Destinations = () => {
   return (
@@ -51,7 +52,7 @@ const Destinations = () => {
                   
                   <h3 className="text-xl font-bold text-primary mb-4 font-heading">Must-See Attractions</h3>
                   <ul className="list-disc list-inside space-y-2 text-darkText mb-6">
-                    {destination.attractions.map((attraction, i) => (
+                    {destination.attractions?.map((attraction, i) => (
                       <li key={i}>{attraction}</li>
                     ))}
                   </ul>
@@ -67,6 +68,7 @@ const Destinations = () => {
                   <div className="flex flex-wrap gap-4 items-center">
                     <Link 
                       href={`/destinations/${destination.id.toLowerCase()}`}
+                      onClick={scrollToTop}
                       className="inline-block bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-md font-medium transition-colors"
                     >
                       Explore {destination.name} <ArrowRight className="inline ml-1 h-4 w-4" />

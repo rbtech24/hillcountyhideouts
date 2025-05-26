@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram, faPinterestP } from "@fortawesome/free-brands-svg-icons";
 import { faMapMarkerAlt, faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { scrollToTop } from "@/hooks/use-scroll-to-top";
 
 const Footer = () => {
   return (
@@ -27,22 +28,22 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4 font-heading">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link href="/" className="text-gray-300 hover:text-accent transition-colors">Home</Link></li>
-              <li><Link href="/about" className="text-gray-300 hover:text-accent transition-colors">About Us</Link></li>
-              <li><Link href="/vacation-rentals" className="text-gray-300 hover:text-accent transition-colors">Our Cabins</Link></li>
-              <li><Link href="/attractions" className="text-gray-300 hover:text-accent transition-colors">Attractions</Link></li>
-              <li><Link href="/blog" className="text-gray-300 hover:text-accent transition-colors">Blog</Link></li>
+              <li><Link href="/" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Home</Link></li>
+              <li><Link href="/about" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">About Us</Link></li>
+              <li><Link href="/vacation-rentals" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Our Cabins</Link></li>
+              <li><Link href="/attractions" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Attractions</Link></li>
+              <li><Link href="/blog" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Blog</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-bold mb-4 font-heading">Destinations</h3>
             <ul className="space-y-2">
-              <li><Link href="/destinations" className="text-gray-300 hover:text-accent transition-colors">Wimberley</Link></li>
-              <li><Link href="/destinations" className="text-gray-300 hover:text-accent transition-colors">Fredericksburg</Link></li>
-              <li><Link href="/destinations" className="text-gray-300 hover:text-accent transition-colors">Dripping Springs</Link></li>
-              <li><Link href="/destinations" className="text-gray-300 hover:text-accent transition-colors">New Braunfels</Link></li>
-              <li><Link href="/destinations" className="text-gray-300 hover:text-accent transition-colors">Canyon Lake</Link></li>
+              <li><Link href="/destinations" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Wimberley</Link></li>
+              <li><Link href="/destinations" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Fredericksburg</Link></li>
+              <li><Link href="/destinations" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Dripping Springs</Link></li>
+              <li><Link href="/destinations" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">New Braunfels</Link></li>
+              <li><Link href="/destinations" onClick={scrollToTop} className="text-gray-300 hover:text-accent transition-colors">Canyon Lake</Link></li>
             </ul>
           </div>
           
