@@ -6,7 +6,7 @@ import { queryClient } from "./lib/queryClient";
 import { useScrollToTop } from "@/hooks/use-scroll-to-top";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
-import About from "@/pages/About";
+
 import Attractions from "@/pages/Attractions";
 import Destinations from "@/pages/Destinations";
 import Blog from "@/pages/Blog";
@@ -32,7 +32,6 @@ function Router() {
       <main className="flex-grow">
         <Switch>
           <Route path="/" component={Home} />
-          <Route path="/about" component={About} />
           <Route path="/attractions" component={Attractions} />
           <Route path="/destinations" component={Destinations} />
           <Route path="/blog" component={Blog} />

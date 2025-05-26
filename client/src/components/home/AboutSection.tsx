@@ -44,9 +44,9 @@ const AboutSection = () => {
                 <p className="font-accent font-medium">Local Cuisine</p>
               </div>
             </div>
-            <Link href="/about">
+            <Link href="/vacation-rentals">
               <Button className="bg-accent hover:bg-primary text-white font-accent font-semibold py-3 px-6 rounded-lg transition-colors">
-                Learn More About Us
+                View Our Cabins
               </Button>
             </Link>
           </div>
