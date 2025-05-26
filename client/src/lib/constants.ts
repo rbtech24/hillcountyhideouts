@@ -1,4 +1,7 @@
 import { Cabin, Destination, Attraction, BlogPost, Testimonial } from "./types";
+import fredericksburgImg from "@assets/hillcountrypic (2).png";
+import newBraunfelsImg from "@assets/New Braunfels.png";
+import wimberleyImg from "@assets/hillcountrypic (3).png";
 import coyoteCabinImg from "@assets/Coyote Cabin6.jpg";
 import desertWillowImg from "@assets/Desert Willow.jpg";
 import mockingbirdCabinImg from "@assets/Mockingbird Cabin01.jpg";
@@ -81,21 +84,21 @@ export const destinations: Destination[] = [
   {
     id: "1",
     name: "Fredericksburg",
-    imageUrl: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
+    imageUrl: fredericksburgImg,
     description: "German heritage town famous for wineries, wildflowers, and Enchanted Rock",
     highlights: ["90+ Wineries", "Historic Main Street", "Enchanted Rock State Park", "German Culture"]
   },
   {
     id: "2",
     name: "New Braunfels", 
-    imageUrl: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
+    imageUrl: newBraunfelsImg,
     description: "River town perfect for tubing, German culture, and family fun",
     highlights: ["Guadalupe River Tubing", "Schlitterbahn Waterpark", "Historic Gruene", "Comal Springs"]
   },
   {
     id: "3",
     name: "Wimberley",
-    imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600", 
+    imageUrl: wimberleyImg, 
     description: "Artistic community along the Blanco River with natural swimming holes",
     highlights: ["Jacob's Well", "Blue Hole Regional Park", "Art Galleries", "Wimberley Square"]
   }
