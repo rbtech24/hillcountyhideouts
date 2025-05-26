@@ -25,7 +25,7 @@ const DrippingSprings = () => {
         <div className="relative h-[60vh] min-h-[400px]">
           <div 
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1543651425-3280dea21d67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080')" }}
+            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080')" }}
           >
             <div className="absolute inset-0 bg-black bg-opacity-40"></div>
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4">
