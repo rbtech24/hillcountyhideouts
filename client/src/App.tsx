@@ -3,6 +3,7 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { queryClient } from "./lib/queryClient";
+import { useScrollToTop } from "@/hooks/use-scroll-to-top";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
@@ -22,6 +23,9 @@ import NewBraunfels from "@/pages/destinations/NewBraunfels";
 import CanyonLake from "@/pages/destinations/CanyonLake";
 
 function Router() {
+  // Automatically scroll to top when route changes
+  useScrollToTop();
+  
   return (
     <div className="flex flex-col min-h-screen">
       <Header />

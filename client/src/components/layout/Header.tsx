@@ -3,6 +3,7 @@ import { Link, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { scrollToTop } from "@/hooks/use-scroll-to-top";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,6 +39,7 @@ const Header = () => {
 
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
+    scrollToTop();
   };
 
   return (
@@ -48,7 +50,7 @@ const Header = () => {
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center">
+        <Link href="/" onClick={scrollToTop} className="flex items-center">
           <img src="/images/text-logo.svg" alt="Hill Country Hideouts" className="h-16" />
         </Link>
         
@@ -71,6 +73,7 @@ const Header = () => {
             <Link 
               key={item.path}
               href={item.path}
+              onClick={scrollToTop}
               className={cn(
                 "nav-item font-accent font-medium text-darkText hover:text-accent transition-colors",
                 location === item.path && "text-accent"
@@ -79,7 +82,7 @@ const Header = () => {
               {item.name}
             </Link>
           ))}
-          <Link href="/vacation-rentals">
+          <Link href="/vacation-rentals" onClick={scrollToTop}>
             <Button className="font-accent bg-accent text-white hover:bg-primary transition-colors">
               Book Now
             </Button>
