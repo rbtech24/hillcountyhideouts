@@ -60,9 +60,9 @@ const Blog = () => {
                       </span>
                     ))}
                   </div>
-                  <Link href={`/blog/${post.slug}`} className="text-accent hover:text-primary font-accent font-medium transition-colors">
-                    Read More <ArrowRight className="inline ml-1 h-4 w-4" />
-                  </Link>
+                  <span className="text-gray-500 font-accent font-medium">
+                    Coming Soon <ArrowRight className="inline ml-1 h-4 w-4" />
+                  </span>
                 </div>
               </div>
             ))}
@@ -70,9 +70,15 @@ const Blog = () => {
             {/* Additional blog posts */}
             {[...Array(3)].map((_, index) => {
               const post = blogPosts[index % blogPosts.length];
+              const imageUrls = [
+                "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
+                "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
+                "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
+              ];
               const modifiedPost = {
                 ...post,
                 id: `additional-${index}`,
+                imageUrl: imageUrls[index],
                 title: index === 0 
                   ? "Best Hill Country Events in 2025" 
                   : index === 1 
@@ -110,9 +116,9 @@ const Blog = () => {
                         </span>
                       ))}
                     </div>
-                    <Link href={`/blog/${modifiedPost.slug}`} className="text-accent hover:text-primary font-accent font-medium transition-colors">
-                      Read More <ArrowRight className="inline ml-1 h-4 w-4" />
-                    </Link>
+                    <span className="text-gray-500 font-accent font-medium">
+                      Coming Soon <ArrowRight className="inline ml-1 h-4 w-4" />
+                    </span>
                   </div>
                 </div>
               );
