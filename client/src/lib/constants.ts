@@ -5,7 +5,7 @@ export const cabins: Cabin[] = [
   {
     id: "1",
     name: "Coyote Cabin",
-    imageUrl: "/images/coyote-cabin.jpg",
+    imageUrl: "@assets/Coyote Cabin6.jpg",
     details: "Rustic charm meets modern comfort in this beautifully appointed Hill Country retreat",
     rating: 4.9,
     reviewCount: 124,
@@ -16,7 +16,7 @@ export const cabins: Cabin[] = [
   {
     id: "2", 
     name: "Desert Willow",
-    imageUrl: "/images/desert-willow.jpg",
+    imageUrl: "@assets/Desert Willow.jpg",
     details: "Secluded cabin with stunning views and luxurious amenities for the perfect getaway",
     rating: 4.8,
     reviewCount: 97,
@@ -27,13 +27,46 @@ export const cabins: Cabin[] = [
   {
     id: "3",
     name: "Mockingbird Cabin", 
-    imageUrl: "/images/mockingbird-cabin.jpg",
+    imageUrl: "@assets/Mockingbird Cabin01.jpg",
     details: "Family-friendly cabin with spacious living areas and outdoor entertainment space",
     rating: 4.7,
     reviewCount: 156,
     amenities: ["Game Room", "Large Deck", "Fire Pit", "Full Kitchen", "Washer/Dryer"],
     url: "https://www.hillcountrypremier.com/cabins-at-flite-acres",
     pricePerNight: 199
+  },
+  {
+    id: "4",
+    name: "Morning Dove Cabin",
+    imageUrl: "@assets/Morning Dove01.jpg", 
+    details: "Peaceful retreat with scenic Hill Country views and modern amenities",
+    rating: 4.8,
+    reviewCount: 89,
+    amenities: ["Hot Tub", "Private Deck", "Full Kitchen", "Fire Pit", "WiFi"],
+    url: "https://www.hillcountrypremier.com/cabins-at-flite-acres",
+    pricePerNight: 215
+  },
+  {
+    id: "5",
+    name: "Mountain Laurel Cabin",
+    imageUrl: "@assets/Mountain Laurel03.jpg",
+    details: "Elegant cabin nestled among native trees with luxury touches throughout",
+    rating: 4.9,
+    reviewCount: 112,
+    amenities: ["Spa Bath", "Fireplace", "Gourmet Kitchen", "Private Hot Tub", "WiFi"],
+    url: "https://www.hillcountrypremier.com/cabins-at-flite-acres", 
+    pricePerNight: 249
+  },
+  {
+    id: "6",
+    name: "Texas Sage Cabin",
+    imageUrl: "@assets/Texas Sage03.jpg",
+    details: "Charming cabin with authentic Texas character and all the comforts of home",
+    rating: 4.7,
+    reviewCount: 95,
+    amenities: ["Fire Pit", "Full Kitchen", "Large Deck", "BBQ Grill", "WiFi"],
+    url: "https://www.hillcountrypremier.com/cabins-at-flite-acres",
+    pricePerNight: 189
   }
 ];
 
