@@ -10,7 +10,7 @@ import Home from "@/pages/Home";
 import Attractions from "@/pages/Attractions";
 import Destinations from "@/pages/Destinations";
 import Blog from "@/pages/Blog";
-
+import BlogPost from "@/pages/BlogPost";
 import Contact from "@/pages/Contact";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -35,6 +35,7 @@ function Router() {
           <Route path="/attractions" component={Attractions} />
           <Route path="/destinations" component={Destinations} />
           <Route path="/blog" component={Blog} />
+          <Route path="/blog/:slug" component={BlogPost} />
           <Route path="/contact" component={Contact} />
           
           {/* Destination detail pages */}

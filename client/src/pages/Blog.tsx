@@ -60,9 +60,9 @@ const Blog = () => {
                       </span>
                     ))}
                   </div>
-                  <span className="text-gray-500 font-accent font-medium">
-                    Coming Soon <ArrowRight className="inline ml-1 h-4 w-4" />
-                  </span>
+                  <Link href={`/blog/${post.slug}`} className="text-accent hover:text-primary font-accent font-medium transition-colors">
+                    Read More <ArrowRight className="inline ml-1 h-4 w-4" />
+                  </Link>
                 </div>
               </div>
             ))}
@@ -116,9 +116,9 @@ const Blog = () => {
                         </span>
                       ))}
                     </div>
-                    <span className="text-gray-500 font-accent font-medium">
-                      Coming Soon <ArrowRight className="inline ml-1 h-4 w-4" />
-                    </span>
+                    <Link href={`/blog/${modifiedPost.slug}`} className="text-accent hover:text-primary font-accent font-medium transition-colors">
+                      Read More <ArrowRight className="inline ml-1 h-4 w-4" />
+                    </Link>
                   </div>
                 </div>
               );
