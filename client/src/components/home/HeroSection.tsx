@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import hillCountrySceneImg from "@assets/shutterstock_754782883.jpg";
 
 const HeroSection = () => {
   const scrollToBooking = () => {
@@ -13,7 +14,7 @@ const HeroSection = () => {
       {/* Hero background image */}
       <div 
         className="relative h-[80vh] min-h-[600px] bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/texas-longhorns.jpg')" }}
+        style={{ backgroundImage: `url(${hillCountrySceneImg})` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4">

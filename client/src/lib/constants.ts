@@ -81,21 +81,21 @@ export const destinations: Destination[] = [
   {
     id: "1",
     name: "Fredericksburg",
-    imageUrl: "/images/fredericksburg.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
     description: "German heritage town famous for wineries, wildflowers, and Enchanted Rock",
     highlights: ["90+ Wineries", "Historic Main Street", "Enchanted Rock State Park", "German Culture"]
   },
   {
     id: "2",
     name: "New Braunfels", 
-    imageUrl: "/images/new-braunfels.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
     description: "River town perfect for tubing, German culture, and family fun",
     highlights: ["Guadalupe River Tubing", "Schlitterbahn Waterpark", "Historic Gruene", "Comal Springs"]
   },
   {
     id: "3",
     name: "Wimberley",
-    imageUrl: "/images/wimberley.jpg", 
+    imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600", 
     description: "Artistic community along the Blanco River with natural swimming holes",
     highlights: ["Jacob's Well", "Blue Hole Regional Park", "Art Galleries", "Wimberley Square"]
   }
