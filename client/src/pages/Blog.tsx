@@ -40,11 +40,6 @@ const Blog = () => {
                 key={post.id}
                 className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-[1.02] duration-300"
               >
-                <img 
-                  src={post.imageUrl} 
-                  alt={post.title} 
-                  className="w-full h-48 object-cover"
-                />
                 <div className="p-6">
                   <div className="flex items-center mb-2">
                     <span className="text-xs text-gray-500 font-accent">{post.date}</span>
@@ -96,11 +91,6 @@ const Blog = () => {
                   key={modifiedPost.id}
                   className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-[1.02] duration-300"
                 >
-                  <img 
-                    src={modifiedPost.imageUrl} 
-                    alt={modifiedPost.title} 
-                    className="w-full h-48 object-cover"
-                  />
                   <div className="p-6">
                     <div className="flex items-center mb-2">
                       <span className="text-xs text-gray-500 font-accent">{modifiedPost.date}</span>
