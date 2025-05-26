@@ -19,7 +19,7 @@ export const cabins: Cabin[] = [
     rating: 4.9,
     reviewCount: 124,
     amenities: ["Hot Tub", "Fire Pit", "Full Kitchen", "WiFi", "Pet Friendly"],
-    url: "https://www.hillcountrypremier.com/cabins-at-flite-acres",
+    url: "https://wimberleycabins.com/cabins/coyote-cabin",
     pricePerNight: 189
   },
   {
@@ -30,7 +30,7 @@ export const cabins: Cabin[] = [
     rating: 4.8,
     reviewCount: 97,
     amenities: ["Private Deck", "Fireplace", "Spa Bath", "BBQ Grill", "WiFi"],
-    url: "https://www.hillcountrypremier.com/cabins-at-flite-acres",
+    url: "https://wimberleycabins.com/cabins/desert-willow",
     pricePerNight: 225
   },
   {
@@ -41,7 +41,7 @@ export const cabins: Cabin[] = [
     rating: 4.7,
     reviewCount: 156,
     amenities: ["Game Room", "Large Deck", "Fire Pit", "Full Kitchen", "Washer/Dryer"],
-    url: "https://www.hillcountrypremier.com/cabins-at-flite-acres",
+    url: "https://wimberleycabins.com/cabins/mockingbird-cabin",
     pricePerNight: 199
   },
   {
@@ -52,7 +52,7 @@ export const cabins: Cabin[] = [
     rating: 4.8,
     reviewCount: 89,
     amenities: ["Hot Tub", "Private Deck", "Full Kitchen", "Fire Pit", "WiFi"],
-    url: "https://www.hillcountrypremier.com/cabins-at-flite-acres",
+    url: "https://wimberleycabins.com/cabins/morning-dove",
     pricePerNight: 215
   },
   {
@@ -63,7 +63,7 @@ export const cabins: Cabin[] = [
     rating: 4.9,
     reviewCount: 112,
     amenities: ["Spa Bath", "Fireplace", "Gourmet Kitchen", "Private Hot Tub", "WiFi"],
-    url: "https://www.hillcountrypremier.com/cabins-at-flite-acres", 
+    url: "https://wimberleycabins.com/cabins/mountain-laurel", 
     pricePerNight: 249
   },
   {
@@ -74,7 +74,7 @@ export const cabins: Cabin[] = [
     rating: 4.7,
     reviewCount: 95,
     amenities: ["Fire Pit", "Full Kitchen", "Large Deck", "BBQ Grill", "WiFi"],
-    url: "https://www.hillcountrypremier.com/cabins-at-flite-acres",
+    url: "https://wimberleycabins.com/cabins/texas-sage",
     pricePerNight: 189
   }
 ];
