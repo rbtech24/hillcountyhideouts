@@ -481,8 +481,8 @@ const DrippingSprings = () => {
               
               <div className="bg-white rounded-lg overflow-hidden shadow-md">
                 <img 
-                  src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500" 
-                  alt="Vacation Rentals" 
+                  src="/src/assets/hillcountry cabins.jpg" 
+                  alt="Hill Country Bridge and Waterway" 
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
