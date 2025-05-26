@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Bed, Wine, Footprints, Utensils } from "lucide-react";
+import hillCountryCabinImg from "@assets/hillcountry cabins.jpg";
 
 const AboutSection = () => {
   return (
@@ -9,7 +10,7 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800" 
+              src={hillCountryCabinImg} 
               alt="Luxury cabin interior in Texas Hill Country" 
               className="rounded-lg shadow-lg w-full h-auto"
             />

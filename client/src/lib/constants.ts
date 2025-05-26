@@ -106,7 +106,7 @@ export const attractions: Attraction[] = [
   {
     id: "1",
     title: "Enchanted Rock State Natural Area",
-    imageUrl: "/images/enchanted-rock.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
     description: "Massive pink granite dome offering hiking trails and stunning Hill Country views",
     link: "/attractions", 
     linkText: "Plan Your Visit",
@@ -115,7 +115,7 @@ export const attractions: Attraction[] = [
   {
     id: "2",
     title: "Natural Bridge Caverns",
-    imageUrl: "/images/natural-bridge-caverns.jpg", 
+    imageUrl: "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600", 
     description: "Underground limestone formations showcasing millions of years of geological history",
     link: "/attractions",
     linkText: "Explore Underground",
@@ -124,7 +124,7 @@ export const attractions: Attraction[] = [
   {
     id: "3",
     title: "Hamilton Pool Preserve",
-    imageUrl: "/images/hamilton-pool.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
     description: "Stunning natural pool formed by thousands of years of water erosion over limestone",
     link: "/attractions", 
     linkText: "Reserve Your Spot",
